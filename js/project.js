@@ -1,0 +1,62 @@
+
+class Project extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      currentPic: 0
+    }
+  }
+
+  nextImg(delta) {
+    var currentPic = this.state.currentPic;
+    var numPics = this.props.currentProject.pictures.length;
+    console.log("Current Pic is: " + currentPic);
+    currentPic += delta;
+
+    console.log("Intermediae is: " + currentPic);
+    currentPic = ((currentPic % numPics) + numPics) % numPics;
+    console.log("Next Pic is: " + currentPic);
+
+    this.setState({
+      currentPic: currentPic
+    });
+  }
+
+  render() {
+    // Return the gallery
+    if (this.props.isOpen){
+      document.body.style.overflowY = "hidden"
+      return (
+        <div className="projects_detail_container">
+          <div className="close_btn_container">
+            <img className="close_btn" src="img/close_icon.png" onClick={() => this.props.onClose()}/>
+          </div>
+          <div className="img_container">
+            <img
+              className="left_btn"
+              src="img/left_arrow.png"
+              onClick={() => this.nextImg(-1)}/>
+            <img
+              className="project_img"
+              src={"img/" + this.props.currentProject.pictures[this.state.currentPic]}/>
+            <img
+              className="right_btn"
+              src="img/right_arrow.png"
+              onClick={() => this.nextImg(1)}/>
+          </div>
+
+          <div className="project_description">
+            <h2>{this.props.currentProject.title}</h2>
+            <p>{this.props.currentProject.description}</p>
+          </div>
+        </div>
+
+      );
+    } else {
+      document.body.style.overflowY = "scroll"
+      return (
+        null
+      );
+    }
+  }
+}
