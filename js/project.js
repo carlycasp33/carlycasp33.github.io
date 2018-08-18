@@ -22,6 +22,13 @@ class Project extends React.Component {
     });
   }
 
+  close(){
+    this.setState({
+      currentPic: 0
+    });
+    this.props.onClose();
+  }
+
   render() {
     // Return the gallery
     if (this.props.isOpen){
@@ -29,7 +36,7 @@ class Project extends React.Component {
       return (
         <div className="projects_detail_container">
           <div className="close_btn_container">
-            <img className="close_btn" src="img/close_icon.png" onClick={() => this.props.onClose()}/>
+            <img className="close_btn" src="img/close_icon.png" onClick={() => this.close()}/>
           </div>
           <div className="img_container">
             <img
@@ -44,6 +51,7 @@ class Project extends React.Component {
               src="img/right_arrow.png"
               onClick={() => this.nextImg(1)}/>
           </div>
+          <span>({this.state.currentPic + 1} of {this.props.currentProject.pictures.length})</span>
 
           <div className="project_description">
             <h2>{this.props.currentProject.title}</h2>

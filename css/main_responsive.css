@@ -420,6 +420,7 @@ header ul.social li a.gplus{
 /*  Testimonials  */
 .projects{
     text-align: center;
+    background: #f7f7f7;
 }
 
 .projects h3{
@@ -468,7 +469,7 @@ header ul.social li a.gplus{
 .contact{
     width: 100%;
     overflow: hidden;
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
 }
 
 

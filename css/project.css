@@ -62,6 +62,15 @@ html, body {
   max-height: 500px;
 }
 
+.projects_detail_container span {
+  color: #ededed;
+  font-family: "lato_regular", arial;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-top: 2px;
+}
+
 .project_description {
   margin-top: 30px;
 }

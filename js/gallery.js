@@ -10,12 +10,14 @@ class Gallery extends React.Component {
         <div key={i} className="gallery_row">
           <GalleryItem
             src={projects[i].pictures[0]}
+            title={projects[i].title}
             onClick={() => this.props.onItemClick(projects[i])}
           />
 
           {i+1 < projects.length ? (
             <GalleryItem
               src={projects[i+1].pictures[0]}
+              title={projects[i].title}
               onClick={() => this.props.onItemClick(projects[i+1])}
             />
             ) : (
@@ -44,6 +46,7 @@ class GalleryItem extends React.Component{
         <img
           src={"img/" + this.props.src}
           onClick={() => this.props.onClick()}/>
+        <div className="gallery_title">{this.props.title}</div>
       </div>
     )
   }
