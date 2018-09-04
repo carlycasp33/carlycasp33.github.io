@@ -45,14 +45,14 @@ function getProjectsList(){
       title: 'Time Capsule',
       description: 'Magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum.',
       pictures: [
+        'TC8.png',
         'TC1.png',
         'TC2.png',
-        'TC3.png',
+		'TC3.png',
 		'TC4.png',
 		'TC5.png',
-		'TC6.png',
-		'TC7.png',
-		'TC8.png'
+		'TC7.png'
+		
       ]
     },
     {
