@@ -52,7 +52,7 @@ function getProjectsList(){
 		'TC4.png',
 		'TC5.png',
 		'TC7.png'
-		
+
       ]
     },
     {

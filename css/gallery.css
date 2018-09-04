@@ -40,6 +40,10 @@
   line-height: 30px;
 }
 
+.gallery_large_screen_row {
+  overflow: auto;
+}
+
 
 /* Style the images inside the grid */
 .gallery_column img {

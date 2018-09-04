@@ -29,10 +29,29 @@ class Gallery extends React.Component {
       rows.push(row);
     }
 
+    // Insert each "row" into a larger row of two rows for formatting
+    // TODO: This isn't a good way to do it. Clean this up later but I just
+    // want to get something working for now.
+    var largeScreenRows = [];
+    for (let i=0; i<rows.length; i+=2){
+      var largeScreenRow = (
+        <div key={i} className="gallery_large_screen_row">
+          {rows[i]}
+          {i+1 < rows.length ? (
+              rows[i+1]
+            ) : (
+              ''
+            )
+          }
+        </div>
+      );
+      largeScreenRows.push(largeScreenRow);
+    }
+
     // Return the gallery
     return (
       <div className="gallery_container">
-        {rows}
+        {largeScreenRows}
       </div>
     );
   }
