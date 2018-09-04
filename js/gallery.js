@@ -17,7 +17,7 @@ class Gallery extends React.Component {
           {i+1 < projects.length ? (
             <GalleryItem
               src={projects[i+1].pictures[0]}
-              title={projects[i].title}
+              title={projects[i+1].title}
               onClick={() => this.props.onItemClick(projects[i+1])}
             />
             ) : (
