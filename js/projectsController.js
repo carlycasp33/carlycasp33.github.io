@@ -42,21 +42,17 @@ class ProjectsController extends React.Component{
 function getProjectsList(){
   return [
     {
-      title: 'Project 1',
+      title: 'Time Capsule',
       description: 'Magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum.',
       pictures: [
-        'time-capsule.jpg',
-        'about_img.jpg',
-        'driftwood-sculpture.jpg'
-      ]
-    },
-    {
-      title: 'Project 2',
-      description: 'Description 2',
-      pictures: [
-        'about_img.jpg',
-        'time-capsule.jpg',
-        'driftwood-sculpture.jpg'
+        'TC1.png',
+        'TC2.png',
+        'TC3.png',
+		'TC4.png',
+		'TC5.png',
+		'TC6.png',
+		'TC7.png',
+		'TC8.png'
       ]
     },
     {
