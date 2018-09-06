@@ -46,6 +46,7 @@ class Project extends React.Component {
             <img
               className="project_img"
               src={"img/" + this.props.currentProject.pictures[this.state.currentPic]}/>
+
             <img
               className="right_btn"
               src="img/right_arrow.png"
