@@ -48,27 +48,25 @@ function getProjectsList(){
         'TC8.png',
         'TC1.png',
         'TC2.png',
-		'TC3.png',
-		'TC4.png',
-		'TC5.png',
-		'TC7.png'
-
+    		'TC3.png',
+    		'TC4.png',
+    		'TC5.png',
+    		'TC7.png'
       ]
     },
     {
-      title: 'Doral City Pavilion,
+      title: 'Doral City Pavilion',
       description: 'Description 3',
       pictures: [
         'DC1.jpg',
         'DC2.jpg',
         'DC3.jpg',
-		'DC4.jpg',
-		'DC5.jpg'.
-		'DC6.jpg',
-		'DC7.jpg',
-		'DC8.jpg',
-		'DC9.jpg'
-
+    		'DC4.jpg',
+    		'DC5.jpg',
+    		'DC6.jpg',
+    		'DC7.jpg',
+    		'DC8.jpg',
+    		'DC9.jpg'
       ]
     },
     {
