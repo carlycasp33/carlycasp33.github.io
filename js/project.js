@@ -43,9 +43,9 @@ class Project extends React.Component {
               className="left_btn"
               src="img/left_arrow.png"
               onClick={() => this.nextImg(-1)}/>
-            <img
-              className="project_img"
-              src={"img/" + this.props.currentProject.pictures[this.state.currentPic]}/>
+
+            <ImageWithSpinner imgSrc={"img/" + this.props.currentProject.pictures[this.state.currentPic]}/>
+
 
             <img
               className="right_btn"
