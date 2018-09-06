@@ -56,12 +56,19 @@ function getProjectsList(){
       ]
     },
     {
-      title: 'Project 3',
+      title: 'Doral City Pavilion,
       description: 'Description 3',
       pictures: [
-        'driftwood-sculpture.jpg',
-        'time-capsule.jpg',
-        'about_img.jpg'
+        'DC1.jpg',
+        'DC2.jpg',
+        'DC3.jpg',
+		'DC4.jpg',
+		'DC5.jpg'.
+		'DC6.jpg',
+		'DC7.jpg',
+		'DC8.jpg',
+		'DC9.jpg'
+
       ]
     },
     {
