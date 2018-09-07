@@ -44,7 +44,8 @@ class Project extends React.Component {
               src="img/left_arrow.png"
               onClick={() => this.nextImg(-1)}/>
 
-            <ImageWithSpinner imgSrc={"img/" + this.props.currentProject.pictures[this.state.currentPic]}/>
+            <ImageWithSpinner imgSrc={"img/" + this.props.currentProject.pictures[this.state.currentPic]}
+                              isNewImg={true}/>
 
 
             <img
