@@ -73,9 +73,9 @@ function getProjectsList(){
       title: 'Zoo Miami Entrance Sign ',
       description: 'Description 1',
       pictures: [
-        'Zoo Miamiii/zm1.png',
-        'Zoo Miamiii/zm2.png',
-        'Zoo Miamiii/zm3.png'
+        'zm1.png',
+        'zm2.png',
+        'zm3.png'
 
       ]
     },
