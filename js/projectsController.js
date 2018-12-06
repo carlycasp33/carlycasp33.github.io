@@ -43,7 +43,7 @@ function getProjectsList(){
   return [
     {
       title: 'Time Capsule',
-      description: 'Magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit in voluptate velit esse cillum.',
+      description: ' .',
       pictures: [
         'TC8.png',
         'TC1.png',
@@ -72,12 +72,13 @@ function getProjectsList(){
       ]
     },
     {
-      title: 'Project 4',
+      title: 'Zoo Miami Entrance Sign ',
       description: 'Description 1',
       pictures: [
-        'time-capsule.jpg',
-        'about_img.jpg',
-        'driftwood-sculpture.jpg'
+        'zm1.png',
+        'zm2.png',
+        'zm3.png'
+
       ]
     },
     {

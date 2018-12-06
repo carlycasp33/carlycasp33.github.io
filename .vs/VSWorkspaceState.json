@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\css",
     "\\img",
+    "\\img\\Doral City Pavillion",
     "\\js"
   ],
-  "SelectedNode": "\\img\\logo.png",
+  "SelectedNode": "\\js\\carouFredSel.js",
   "PreviewInSolutionExplorer": false
 }
