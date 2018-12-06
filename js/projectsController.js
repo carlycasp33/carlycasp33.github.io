@@ -105,51 +105,7 @@ function getProjectsList(){
         'time-capsule.jpg',
         'driftwood-sculpture.jpg'
       ]
-    },
-    {
-      title: 'New Project',
-      description: 'Description 1',
-      pictures: [
-        'time-capsule.jpg',
-        'about_img.jpg',
-        'driftwood-sculpture.jpg'
-      ]
-    },
-    {
-      title: 'Project 5',
-      description: 'Description 1',
-      pictures: [
-        'driftwood-sculpture.jpg',
-        'time-capsule.jpg',
-        'about_img.jpg'
-      ]
-    },
-    {
-      title: 'Project 6',
-      description: 'Description 1',
-      pictures: [
-        'time-capsule.jpg',
-        'about_img.jpg',
-        'driftwood-sculpture.jpg'
-      ]
-    },
-    {
-      title: 'Project 7',
-      description: 'Description 1',
-      pictures: [
-        'about_img.jpg',
-        'time-capsule.jpg',
-        'driftwood-sculpture.jpg'
-      ]
-    },
-    {
-      title: 'New Project',
-      description: 'Description 1',
-      pictures: [
-        'time-capsule.jpg',
-        'about_img.jpg',
-        'driftwood-sculpture.jpg'
-      ]
+
     }
   ];
 }
