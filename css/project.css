@@ -1,103 +1,52 @@
-html, body {
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('/w3images/forestbridge.jpg');
+  /* Full-screen */
   height: 100%;
-  margin: 0;
-}
-
-.projects_detail_container {
-  width: 98%;
-  height: 99%;
-  background-color: #191919;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999999999;
-  overflow-y: scroll;
-  padding: 1%;
-}
-
-.close_btn_container {
-  width: 100%;
-  display: inline-block;
-}
-
-.close_btn {
-  float:right;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-}
-
-.img_container{
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
   position: relative;
-  max-width: 90%;
-  width: 900px;
-  max-height: 500px;
-  margin: auto;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
 }
 
-.left_btn {
-  left: 0;
-}
-.right_btn {
-  right: 0;
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
 }
 
-.left_btn, .right_btn {
-  width: 50px;
-  height: 50px;
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
   position: absolute;
   top: 50%;
-  transform: translate(0, -50%);
-  background-color: rgba(25, 25, 25, .6);
-  cursor: pointer;
-  opacity: 0.8;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.left_btn:hover, .right_btn:hover {
-  opacity: 1;
-}
-
-.project_img {
-  max-width: 90%;
-  max-height: 500px;
-}
-
-.projects_detail_container span {
-  color: #ededed;
-  font-family: "lato_regular", arial;
-  font-size: 14px;
-  letter-spacing: 1px;
-  line-height: 30px;
-  margin-top: 2px;
-}
-
-.project_description {
-  margin-top: 30px;
-}
-
-.project_description h2 {
-  color: #fff;
-  font-family: "lato_bold", arial;
-  font-size: 30px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  line-height: 40px;
-}
-
-.project_description p {
-  color: #ededed;
-  font-family: "lato_regular", arial;
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 30px;
-  margin-top: 10px;
-}
-
-@media (max-width:800px) {
-  .left_btn {
-    left: 5%;
-  }
-  .right_btn {
-    right: 5%;
-  }
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
 }
